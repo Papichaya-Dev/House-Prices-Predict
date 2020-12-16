@@ -21,7 +21,7 @@ def predict():
     prediction=model.predict(final)
     output=round(prediction[0],2)
 
-    return render_template('index.html', pred='The price of your dream house is {} USD Only.'.format(output))
+    return render_template('index.html', pred=' {} USD Only.'.format(output))
 
 if __name__ == '__main__':
     app.run(debug=True)
