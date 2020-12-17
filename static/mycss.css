@@ -80,6 +80,24 @@ Select:focus{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px rgb(214, 214, 214);
+    text-decoration: none;
+
+}
+#submitbtntwo{
+    padding: 1% 3%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(214, 214, 214);
+    margin-bottom: 150px;
+    margin-left: 300px;
+    text-decoration: none;
+
+    
 }
 #submitbtn:hover{
     color: white;
@@ -93,3 +111,37 @@ Select:focus{
 footer{
     padding: 2%;
 }
+.button {
+    padding: 1% 3%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(30, 57, 155);
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    margin-left: 10px;
+  }
+  
+  .button1:hover {
+    color: white;
+    background-color: rgb(57, 111, 212);
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    margin-left: 10px;
+  }
+  
+  .button2:hover {
+    color: white;
+    background-color: rgb(65, 169, 103);
+  }
+  

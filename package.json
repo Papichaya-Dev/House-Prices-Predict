@@ -1,0 +1,23 @@
+{
+  "name": "House_Price_Prediction",
+  "version": "1.0.0",
+  "description": "Multiple Linear Regression is used to predict the price of the houses based on different 14 independent variables. This repository is directly pushed from pycharm (Python IDE), It use flask to deploy it. ----------------------------------------------------------------------------------------------------------------------- This repo consists of: 1)Flask(Web framework) in:app.py 2)Dataset: House_modified.csv 3)Machine learning model : house_price_prediction.py 4)Template:index.html 4)CSS & fonts in : static folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papichaya-Dev/House_Price_Predict_AI_FINAL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papichaya-Dev/House_Price_Predict_AI_FINAL/issues"
+  },
+  "homepage": "https://github.com/Papichaya-Dev/House_Price_Predict_AI_FINAL#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}

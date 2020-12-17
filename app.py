@@ -22,6 +22,6 @@ def predict():
     output=round(prediction[0],2)
 
     return render_template('index.html', pred=' {} USD Only.'.format(output))
-
+    
 if __name__ == '__main__':
     app.run(debug=True)

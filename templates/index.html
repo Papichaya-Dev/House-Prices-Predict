@@ -29,7 +29,7 @@
                 <form action="/predict" method="post">
                     <table style="text-align: left; width:30%;">
                         <tr>
-                            <th><label class='select_label'>Do you want <b>single</b> story building? </label></th>
+                            <th><label class='select_label'>Do you want <b>single</b> story house? </label></th>
                             <td>
                                 <Select id='one_story' name='one_story'>
                                     <option value='1'>Yes</option>
@@ -38,7 +38,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label class='select_label'>Do you want <b>two</b> story building? </label></th>
+                            <th><label class='select_label'>Do you want <b>two</b> story house? </label></th>
                             <td>
                                 <Select id='two_story' name='two_story'>
                                     <option value='1'>Yes</option>
@@ -47,7 +47,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label class='select_label'>Do you want <b>three</b> story building? </label></th>
+                            <th><label class='select_label'>Do you want <b>three</b> story house? </label></th>
                             <td>
                                 <Select id='three_story' name='three_story'>
                                     <option value='1'>Yes</option>
@@ -56,7 +56,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label class='select_label'>Do you want <b>four</b> story building? </label></th>
+                            <th><label class='select_label'>Do you want <b>four</b> story house? </label></th>
                             <td>
                                 <Select id='four_story' name='four_story'>
                                     <option value='1'>Yes</option>
@@ -118,7 +118,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><label class='select_label'>Looking for gas hot water in the house? </label></th>
+                            <th><label class='select_label'>Looking for firepalce in the house? </label></th>
                             <td>
                                 <Select id='gashw' name='gashw'>
                                     <option value='1'>Yes</option>
@@ -148,9 +148,11 @@
                     </table>
                     
                     <br>
-                    
-                    <button id="submitbtn" type="submit" value="Submit">Submit</button><br>
-                        
+                    <!-- <button id="submitbtn"type="submit" value="Submit" >Submit</button><br>
+                    <button id="submitbtntwo" type="button"onclick="window.location.href='http://localhost:5000'">Reset</button> -->
+                    <button id="button1"type="submit" value="Submit" class="button button1">Submit</button>
+                    <button id="button2" type="button"onclick="window.location.href='http://localhost:5000'" class="button button2">Reset</button>
+
                 </form>
             </div>
 
@@ -158,6 +160,7 @@
 
         </div>
     </div>
+
 </body>
     
     
