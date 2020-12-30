@@ -8,6 +8,3 @@ This repo consists of:
 3)Machine learning model : house_price_prediction.py
 4)Template:index.html
 4)CSS & fonts in : static folder.
-
-These 4 directories will help you to create and deploy a finished machine learning model onto the website.
-"# House_Price_Predict_AI_FINAL" 
